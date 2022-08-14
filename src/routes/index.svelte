@@ -24,10 +24,7 @@
 	}
 
 	onMount(async () => {
-		console.info(`
-	🤖 LS Decrypt v${APP_VERSION}\n
-	🛠️ ${import.meta.env.ENV_MODE}
-		`);
+		console.info(`🤖 LS Decrypt v${APP_VERSION}`);
 	});
 </script>
 
